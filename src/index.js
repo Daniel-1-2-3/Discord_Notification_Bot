@@ -22,5 +22,5 @@ client.on('messageCreate', async (message) => {
     }
 });
 
-client.login('MTE3NjI0NTk0NTY5NzA1NDc5MA.GVQ3mE.RamNmS83HQM9Eq2IFzRPiojpm4asS6XxEcyO0c');
+client.login('MTE3NjI0NTk0NTY5NzA1NDc5MA.Gbi9MB.JHQg2im4VBrCpnQZ7RfnGjBkvg3JGA9AEsDAeY');
 //Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (to bypass the policy preventing use of nodemon)
