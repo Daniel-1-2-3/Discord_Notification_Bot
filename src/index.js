@@ -1,5 +1,6 @@
 // importing modules: discord.js, and reading from console
 const {Client, GatewayIntentBits} = require('discord.js');
+require('dotenv').config(); // Load environment variables from .env file
 const readLine = require('readline') 
 
 const client = new Client({ // intents are a set of permissions that the bot can use, like recieving messages, access to members names, etc.
@@ -22,5 +23,5 @@ client.on('messageCreate', async (message) => {
     }
 });
 
-client.login('MTE3NjI0NTk0NTY5NzA1NDc5MA.Gbi9MB.JHQg2im4VBrCpnQZ7RfnGjBkvg3JGA9AEsDAeY');
+client.login(process.env.DISCORD_TOKEN);
 //Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (to bypass the policy preventing use of nodemon)
